@@ -1,4 +1,5 @@
 import string
+import time
 
 def ui():
     print("enter content")
@@ -8,7 +9,8 @@ def ui():
 
 def innerworkings(content):
     amnt = content.count("e")
-    print(amnt) 
+    print(amnt)
+    time.sleep(1)
     ui()
 
 ui()
